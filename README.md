@@ -1,13 +1,23 @@
-# React + Vite
+## Color Picker Component 🎨
+A React-based application for selecting and previewing colors in real-time.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Features
+Live Color Display: Instantly updates the preview box as you choose a color.
+HEX Color Code: Shows the code of the selected color.
+Interactive UI: Minimalistic and responsive design using Tailwind.
 
-Currently, two official plugins are available:
+## 🚀 How to Use
+Select a color using the input field.
+View the color applied to the preview box.
+Check the corresponding HEX code below the preview.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Tech Stack
+React: Frontend framework.
+CSS (Tailwind): Styling.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# React-Color-Picker-App
+## ⚙️ Code Highlights
+  ```useState Hook```: Manages the selected color state.
+<br>
+```Dynamic Styling```: Inline style updates the color preview box.
+<br>
+```Event Handling```: React onChange.
